@@ -123,7 +123,7 @@ function findCarMakes(carMakeTarget, carArray, resultArray) {
             resultArray.push(JSON.stringify(carArray[i]));
         }
     }
-    return BMWAndAudi;
+    return resultArray;
 }
 console.log(findCarMakes(carMakes, inventory, BMWAndAudi));
 
